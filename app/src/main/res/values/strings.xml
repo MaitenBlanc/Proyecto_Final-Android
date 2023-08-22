@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Proyecto Final</string>
+    <string name="button_text">Comparar</string>
+    <string name="textSame">Son iguales</string>
+    <string name="textNotSame">No son iguales</string>
+    <string name="ingresar1">Ingrese palabra 1</string>
+    <string name="ingresar2">Ingrese palabra 2</string>
+    <string name="textPrueba1">Hola</string>
+    <string name="textPrueba2">Chau</string>
+</resources>
