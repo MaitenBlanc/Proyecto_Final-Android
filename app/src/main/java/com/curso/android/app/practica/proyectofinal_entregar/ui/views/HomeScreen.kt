@@ -33,11 +33,15 @@ fun HomeScreen(homeViewModel: HomeViewModel = viewModel()) {
         verticalArrangement = Arrangement.Center
     ){
         TextField(
+            modifier = Modifier
+                .padding(0.dp, 0.dp, 0.dp, 30.dp),
             value = homeUiState.palabra1,
             onValueChange = { homeViewModel.updatePalabra1(it) },
             label = { Text(text = stringResource(R.string.ingresar1)) }
         )
         TextField(value = homeUiState.palabra2,
+            modifier = Modifier
+                .padding(0.dp, 0.dp, 0.dp, 50.dp),
             onValueChange = { homeViewModel.updatePalabra2(it) },
             label = { Text(text = stringResource(R.string.ingresar2)) }
         )
